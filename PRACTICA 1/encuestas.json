@@ -1,0 +1,36 @@
+{
+    "encuestas": [
+       { "id":1,
+        "titulo": "satisfacción de un servicio",
+        "activa": true,
+        "preguntas": [
+         {  "orden":1,
+         "texto": "¿Cómo valorarías la atención recibida?",
+         "tipo": "opcion_multiple",
+         "opciones": [ "Muy buena",
+                       "Buena",
+                       "Regular",
+                       "Mala" ]  },
+         { "orden": 2,
+    "texto": "¿Qué mejorarías del servicio?",
+    "tipo": "texto_libre" }
+ ]
+      },
+
+       { "id": 2,
+         "titulo": "Preferencias futbolísticas",
+         "activa": true,
+         "preguntas": [
+    {"orden":1,
+    "texto":"¿Cuál es tu equipo favorito?",
+    "tipo": "opcion_multiple",
+    "opciones": [ "Barcelona",
+                  "Madrid",
+                 "Mallorca" ] },
+    {"orden":2,
+    "texto": "¿Cuál es el gol que más celebraste?",
+    "tipo": "texto_libre"}
+ ]
+    }
+         ]
+}
